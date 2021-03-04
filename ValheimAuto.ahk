@@ -18,7 +18,7 @@ preAutoJump(Speed=1500)
 }
 
 
-preAutoRun(Speed=3200)
+preAutoRun(Speed=4500)
 {
 	static Toggle
 	Toggle := !Toggle
@@ -31,10 +31,12 @@ preAutoRun(Speed=3200)
 	Send, {w down}
 	Sleep, 100
 	Send, {Shift down}
-	Sleep, 1000
+	Sleep, 2000
 	Send, {Shift up}
 	Sleep, 100
-	Send, {w up}
+	Send, {w up} 
+	Sleep, 100
+	Send, {Space}
 	
 	Return
 }
