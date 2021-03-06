@@ -10,8 +10,8 @@ Instructions:
 3. Use Commands Below
 
 Commands:
-F7 - Auto Jump
-F8 - Auto Run and Jump
+1. F7 - Auto Jump
+2. F8 - Auto Run and Jump
 
 Known Bugs:
 1. When in the middle running, cannot cancel the script. Workaround - Press F8 after the jump completes
